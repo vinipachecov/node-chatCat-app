@@ -1,0 +1,42 @@
+{
+  "name": "chatcat",
+  "version": "1.0.0",
+  "description": "A common chat app using nodejs (educational purposes)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinipachecov/all-about-node.git"
+  },
+  "keywords": [
+    "nodejs",
+    "chat",
+    "socketio"
+  ],
+  "author": "Vinicius Pacheco Vieira",
+  "license": "ISC",
+  "engines": {
+    "node": "9.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/vinipachecov/all-about-node/issues"
+  },
+  "homepage": "https://github.com/vinipachecov/all-about-node#readme",
+  "dependencies": {
+    "connect-mongo": "1.1.0",
+    "ejs": "^2.5.7",
+    "express": "^4.13.3",
+    "express-session": "^1.15.6",
+    "mongoose": "^4.3.1",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1",
+    "passport-twitter": "^1.0.4",
+    "redis": "^2.8.0",
+    "socket.io": "2.0.4",
+    "socket.io-redis": "^5.2.0",
+    "winston": "^3.0.0-rc2"
+  }
+}
